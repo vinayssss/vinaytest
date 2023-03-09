@@ -89,7 +89,7 @@ dimension: full_name {
 }
 dimension: length {
   type: number
-  sql: len(${full_name} ;;
+  sql: len(${full_name}) ;;
 }
 dimension: age_tier {
   type: tier
