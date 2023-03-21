@@ -113,7 +113,7 @@ label: "average cost usd"
 description: "the avg total price"
 type:average
 value_format_name: usd
-sql: ${sale_price} ;;
+sql: ${sale_price} ,${order_id};;
 }
 measure: costs {
   type: sum
