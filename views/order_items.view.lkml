@@ -106,6 +106,15 @@ measure: total_revenue {
   sql: ${sale_price};;
   value_format_name: usd_0
 }
+measure: cost {
+  group_label: "cost usd"
+group_item_label:: "avg"
+label: "average cost usd"
+description: "the avg total price"
+type:average
+value_format_name: usd
+sql: ${sale_price} ;;
+}
   # ----- Sets of fields for drilling ------
   set: detail {
     fields: [
