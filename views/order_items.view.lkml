@@ -101,6 +101,7 @@ view: order_items {
     drill_fields: [detail*]
   }
 measure: total_revenue {
+  hidden: yes
   type: sum
   sql: ${sale_price};;
   value_format_name: usd_0
