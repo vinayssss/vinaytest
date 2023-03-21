@@ -115,6 +115,10 @@ type:average
 value_format_name: usd
 sql: ${sale_price} ;;
 }
+measure: costs {
+  type: sum
+  sql: ${sale_price} ;;
+}
   # ----- Sets of fields for drilling ------
   set: detail {
     fields: [
